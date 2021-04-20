@@ -1,0 +1,15 @@
+---
+application:
+  name: "nlw2"
+  project: "sample-project"
+  organization: "QoveryCommunity"
+databases:
+- type: "MYSQL"
+  name: "sample"
+  version: "8.0"
+routers:
+- name: "main-nlw2"
+  routes:
+  - application_name: "nlw2"
+    paths:
+    - "/*"
